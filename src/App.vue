@@ -60,12 +60,12 @@
         <button @click="next" :disabled="limit<=countNext+1" style="order: 3;">Next</button>
       </div>
       <label v-if="limit===countcheckanswer">
-        <h2>Your score is- {{ score }}/{{limit}}</h2>
+        <h2>Your score is: {{ score }}/{{limit}}</h2>
       </label>
+      <!-- <h1>{{ countcheckanswer }}</h1>
+      <h2>{{ limit }}</h2> -->
       
     </div>
-
-    
   </div>
 
 </template>
